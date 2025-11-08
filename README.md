@@ -66,9 +66,11 @@ Returns similarity score, match percentage, and missing skills.
   
 - **Set up environment variables**
   Create a .env file in the project root with the following content:
-  `DATABASE_URL=postgresql://postgres:root@localhost:1234/resume_db`
+  <pre>
+  DATABASE_URL=postgresql://postgres:root@localhost:1234/resume_db
   
-  `LLM_API_KEY=your_api_key_here`
+  LLM_API_KEY=your_api_key_here
+  </pre>
 
 - **Run the FastAPI application**
   Run this command in the project root
