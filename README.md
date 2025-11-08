@@ -60,13 +60,14 @@ Returns similarity score, match percentage, and missing skills.
 🧭 Steps to Run
 
 - **Clone the repository**
-- 
+
 - **Install dependencies**
   `pip install -r requirements.txt`
   
 - **Set up environment variables**
   Create a .env file in the project root with the following content:
   `DATABASE_URL=postgresql://postgres:root@localhost:1234/resume_db`
+  
   `LLM_API_KEY=your_api_key_here`
 
 - **Run the FastAPI application**
