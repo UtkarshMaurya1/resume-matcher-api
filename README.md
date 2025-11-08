@@ -57,7 +57,7 @@ Returns similarity score, match percentage, and missing skills.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🧭 Steps to Run
+🧭 **Steps to Run**
 
 - **Clone the repository**
 
@@ -72,7 +72,7 @@ Returns similarity score, match percentage, and missing skills.
 
 - **Run the FastAPI application**
   Run this command in the project root
-  <pre> ```bash uvicorn app.main:app --reload ``` </pre>
+  <pre> uvicorn app.main:app --reload </pre>
 
   The app will start on:
   `http://127.0.0.1:8000`
